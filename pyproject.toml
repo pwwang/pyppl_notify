@@ -11,8 +11,7 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/pwwang/pyppl-notify"
 repository = "https://github.com/pwwang/pyppl-notify"
-[[tool.poetry.packages]]
-include = "pyppl-notify"
+packages = [{include = "pyppl-notify.py"}]
 
 [tool.poetry.dependencies]
 python = "^3.6"
