@@ -1,2 +1,2 @@
-# pyppl-flowchart
-Generating flowchart for PyPPL
+# pyppl-notify
+Email notification for PyPPL

@@ -3,18 +3,17 @@ requires = [ "poetry>=0.12",]
 build-backend = "poetry.masonry.api"
 
 [tool.poetry]
-name = "pyppl-flowchart"
+name = "pyppl-notify"
 version = "0.0.1"
-description = "Generating flowchart for PyPPL"
+description = "Email notification for PyPPL"
 authors = [ "pwwang <pwwang@pwwang.com>",]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/pwwang/pyppl-flowchart"
-repository = "https://github.com/pwwang/pyppl-flowchart"
-packages = [{ include = "pyppl-flowchart" } ]
+homepage = "https://github.com/pwwang/pyppl-notify"
+repository = "https://github.com/pwwang/pyppl-notify"
+packages = [{ include = "pyppl-notify" } ]
 
 [tool.poetry.dependencies]
 python = "^3.6"
 pyppl = "^2.0.0"
 panflute = "^1.0.0"
-graphviz = "^0.11"
