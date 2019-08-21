@@ -65,7 +65,7 @@ Job directory: {obj.dir}
 )
 
 DEFAULT_CONFIG = {
-	'from': 'pyppl-notify@no-reply.info',
+	'from': 'pyppl_notify@no-reply.info',
 	'to'  : [],
 	'when': {
 		'pipeline': 'abe',
