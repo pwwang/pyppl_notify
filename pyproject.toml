@@ -15,5 +15,9 @@ packages = [{include = "pyppl_notify.py"}]
 
 [tool.poetry.dependencies]
 python = "^3.6"
-pyppl = "^2.0.0"
-panflute = "^1.0.0"
+pyppl = "3.*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-cov = "*"
+
