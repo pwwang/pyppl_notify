@@ -1,9 +1,11 @@
 from email.mime.text import MIMEText
 from datetime import datetime
 from pyppl.plugin import hookimpl
-from pyppl.logger import logger
+from pyppl.logger import Logger
 
 __version__ = "0.0.1"
+
+logger = Logger(plugin='notify')
 
 EMAIL = None
 TEMPLATES = dict(
