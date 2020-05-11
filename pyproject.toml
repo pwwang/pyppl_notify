@@ -4,7 +4,7 @@ build-backend = "poetry.masonry.api"
 
 [tool.poetry]
 name = "pyppl_notify"
-version = "0.0.1"
+version = "0.0.2"
 description = "Email notification for PyPPL"
 authors = [ "pwwang <pwwang@pwwang.com>",]
 license = "MIT"
